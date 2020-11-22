@@ -10387,6 +10387,7 @@ body {
 }
 .contact-section .social {
   margin-top: 5rem;
+  font-style: none;
 }
 .contact-section .social a {
   text-align: center;
