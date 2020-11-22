@@ -10335,6 +10335,13 @@ body {
   color: rgba(255, 255, 255, 0.85);
 }
 
+.redux{
+  width: 41px;
+  height: 41px;
+  margin-bottom: 20px;
+  fill: rgba(255, 255, 255, 0.85);
+}
+
 .skill-name {
   color: #292929;
   font-weight: bold;
