@@ -478,6 +478,23 @@ mark,
   height: auto;
 }
 
+.iframe-fluid{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.iframe-container{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 50%;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -10335,6 +10352,13 @@ body {
   color: rgba(255, 255, 255, 0.85);
 }
 
+.redux{
+  width: 41px;
+  height: 41px;
+  margin-bottom: 20px;
+  fill: rgba(255, 255, 255, 0.85);
+}
+
 .skill-name {
   color: #292929;
   font-weight: bold;
@@ -10387,6 +10411,7 @@ body {
 }
 .contact-section .social {
   margin-top: 5rem;
+  font-style: none;
 }
 .contact-section .social a {
   text-align: center;
